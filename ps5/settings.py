@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
+    'youtube_dl',
+    'bootstrap3',
 ]
 
 MIDDLEWARE_CLASSES = [

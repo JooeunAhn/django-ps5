@@ -5,4 +5,5 @@ from blog import views
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),
+    url(r'^serve/$',views.serve, name="serve"), 
 ]
